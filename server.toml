@@ -1,0 +1,7 @@
+display = ":0"
+start = '''
+xrandr --output HDMI-2 --mode 1280x720
+'''
+end = '''
+xrandr --output HDMI-2 --off
+'''
