@@ -34,7 +34,6 @@ func run() {
 				runCMD(c.Start)
 				c.battle(messages)
 			}
-		default:
 		}
 	}
 }
