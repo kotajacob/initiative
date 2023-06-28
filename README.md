@@ -4,6 +4,9 @@ A D&D assistant comprised of a tool to display on a player facing monitor and a
 control tool for running combat.
 
 ## client
+
+![photo of the client](client.png)
+
 When opened, the client reads a config from:
 `XDG_CONFIG_HOME/initiative/client.toml`. An example is included in this repo.
 
@@ -17,6 +20,9 @@ will move to the next combatant and pressing `backspace` or `k` will move to
 the previous one.
 
 ## server
+
+![photo of the server](server.jpg)
+
 When opened, the client reads a config from:
 `XDG_CONFIG_HOME/initiative/server.toml`. An example is included in this repo.
 
