@@ -24,7 +24,7 @@ The server listens on `:6666` and uses a simple plain text TCP protocol. Each
 command follows the form: `<command>,<option>,<option>...\n`.
 
 ### `start`
-Opens the window.
+Sets the display variable, runs optional commands (such as turning on a monitor) and opens the window.
 
 ### `battle,<combatant>...`
 Displays a list of combatants.
@@ -33,9 +33,5 @@ Displays a list of combatants.
 Highlights a combatant by the 0 indexed list of combatants.
 
 ### `end`
-Closes the window, but leaves the server listening.
-
-## TODO
-- mark character as dead
-- mark various status effects
-- open and close server when opening or closing the client
+Closes the window and runs optional commands (such as turning off a monitor),
+but leaves the server listening.
